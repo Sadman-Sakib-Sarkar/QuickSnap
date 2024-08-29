@@ -9,8 +9,6 @@ namespace CardGames
         public static void LoadResources()
         {
             Bitmap cards;
-            cards = SwinGame.LoadBitmapNamed ("Cards", "Cards.png");
-            SwinGame.BitmapSetCellDetails (cards, 82, 110, 13, 5, 53);      // set the cells in the bitmap to match the cards
         }
 
 		/// <summary>
